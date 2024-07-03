@@ -1,0 +1,41 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    z-index: 2000;
+}
+
+.modal-content {
+    background-color: #3e3b3b;
+    padding: 1% 5%;
+    border-radius: 8px;
+    border: 2px solid aliceblue;
+    position: relative;
+    width: 400px;
+    max-width: 90%;
+    h3 {
+        text-align: center;
+    }
+}
+
+.modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 35px;
+    cursor: pointer;
+    color: aliceblue;
+}
+
+.modal-close:hover {
+   color: rgb(179, 17, 17); 
+}

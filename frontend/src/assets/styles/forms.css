@@ -1,0 +1,9 @@
+
+input, textarea {
+    font-size: medium;
+    display: block;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: bisque;
+    width: 100%;
+}
